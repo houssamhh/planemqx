@@ -1,0 +1,12 @@
+{
+    "id": "urn:ngsi-ld:ApplicationCategory:5cb2a2ee-234e-41bf-a507-36dbbc0659ce",
+    "type": "ApplicationCategory",
+    "name": {
+        "type": "Property",
+        "value": "analytics"
+    },
+    "code": {
+        "type": "Property",
+        "value": "AN"
+    }
+}

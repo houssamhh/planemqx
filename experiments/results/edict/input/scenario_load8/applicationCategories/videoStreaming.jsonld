@@ -1,0 +1,12 @@
+{
+    "id": "urn:ngsi-ld:ApplicationCategory:ba2a1788-c731-409d-9a09-fd926d5f24aa",
+    "type": "ApplicationCategory",
+    "name": {
+        "type": "Property",
+        "value": "videoStreaming"
+    },
+    "code": {
+        "type": "Property",
+        "value": "VS"
+    }
+}

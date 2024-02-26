@@ -1,0 +1,12 @@
+{
+    "id": "urn:ngsi-ld:ApplicationCategory:bcefc81e-c777-4048-afc9-7e15f7d6896b",
+    "type": "ApplicationCategory",
+    "name": {
+        "type": "Property",
+        "value": "transactional"
+    },
+    "code": {
+        "type": "Property",
+        "value": "TS"
+    }
+}

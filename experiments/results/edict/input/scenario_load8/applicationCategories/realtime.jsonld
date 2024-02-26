@@ -1,0 +1,12 @@
+{
+    "id": "urn:ngsi-ld:ApplicationCategory:7cd3989c-6020-47c9-935d-a40eebee9805",
+    "type": "ApplicationCategory",
+    "name": {
+        "type": "Property",
+        "value": "realtime"
+    },
+    "code": {
+        "type": "Property",
+        "value": "RT"
+    }
+}

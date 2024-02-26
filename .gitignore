@@ -1,0 +1,7 @@
+**/bin/
+**/*.class
+**/*.db
+**/*.log
+**/*.xlsx
+**/.csv
+!output/*.csv

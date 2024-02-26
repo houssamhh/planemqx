@@ -1,0 +1,23 @@
+{
+    "id": "urn:ngsi-ld:Observation:ca3c332d-01fc-4a53-92d2-243d7c3e0da3",
+    "type": "Observation",
+    "name": {
+        "type": "Property",
+        "value": "topic1"
+    },
+    "isCapturedBy": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Device:1ef09b26-189e-4bcb-ac0e-7923e4b4dc23"
+        ]
+    },
+    "isReceivedBy": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Application:66ace1d5-fa6f-42d4-9c9d-902a1d64e1b4",
+            "urn:ngsi-ld:Application:979465f7-89b2-4a70-a7e3-83b697b18125",
+            "urn:ngsi-ld:Application:19b1761e-9c81-437d-906b-8021b619e1ac",
+            "urn:ngsi-ld:Application:619dd396-11f1-4209-bfa2-a4ef5b6e755f"
+        ]
+    }
+}

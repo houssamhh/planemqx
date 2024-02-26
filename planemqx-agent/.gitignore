@@ -1,0 +1,8 @@
+/bin/
+/target/
+/tarce/
+.settings/
+.project
+.classpath
+.attach_pid*
+TODO.txt

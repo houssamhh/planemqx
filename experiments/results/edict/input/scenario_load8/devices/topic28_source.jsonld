@@ -1,0 +1,26 @@
+{
+    "id": "urn:ngsi-ld:Device:8cfeadaf-e9d0-47b8-b6ba-9a48400b5635",
+    "type": "Device",
+    "name": {
+        "type": "Property",
+        "value": "topic28_source"
+    },
+    "publishFrequency": {
+        "type": "Property",
+        "value": 10
+    },
+    "messageSize": {
+        "type": "Property",
+        "value": 2048
+    },
+    "dataDistribution": {
+        "type": "Property",
+        "value": "exponential"
+    },
+    "capturesObservation": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Observation:57e02f5f-af5d-4479-bfca-2e12acdfe44f"
+        ]
+    }
+}

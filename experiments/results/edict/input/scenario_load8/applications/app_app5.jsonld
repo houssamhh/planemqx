@@ -1,0 +1,34 @@
+{
+    "id": "urn:ngsi-ld:Application:19b1761e-9c81-437d-906b-8021b619e1ac",
+    "type": "Application",
+    "name": {
+        "type": "Property",
+        "value": "app5"
+    },
+    "applicationCategory": {
+        "type": "Relationship",
+        "object": "urn:ngsi-ld:ApplicationCategory:7cd3989c-6020-47c9-935d-a40eebee9805"
+    },
+    "priority": {
+        "type": "Property",
+        "value": 0
+    },
+    "processingRate": {
+        "type": "Property",
+        "value": 1000
+    },
+    "processingDistribution": {
+        "type": "Property",
+        "value": "exponential"
+    },
+    "receivesObservation": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Observation:ca3c332d-01fc-4a53-92d2-243d7c3e0da3",
+            "urn:ngsi-ld:Observation:08f9a9a3-fff1-4310-b67b-a0e98094e511",
+            "urn:ngsi-ld:Observation:fda70f3d-5ab0-4e37-b2bb-7f1292eea368",
+            "urn:ngsi-ld:Observation:132c9e1a-47bb-43f3-b722-3262366e5cf0",
+            "urn:ngsi-ld:Observation:58101b88-11d4-428c-9ee7-fc0b2e202615"
+        ]
+    }
+}
