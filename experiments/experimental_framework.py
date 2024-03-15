@@ -27,7 +27,7 @@ brokerDocker = network.addDocker(
 )
 
 publisherDocker = network.addDocker(
-	'publishers',
+	'pub',
 	ip='10.0.0.251',
 	dimage="planemqx-publishers:latest",
 	#dcmd="java -jar mqtt-publisher/mqtt-publisher.jar",
@@ -38,7 +38,7 @@ publisherDocker = network.addDocker(
 )
 
 subscriberDocker = network.addDocker(
-	'subscribers',
+	'sub',
 	ip='10.0.0.253',
 	dimage="planemqx-subscribers:latest",
 	#dcmd="java -jar /mqtt-subscriber/mqtt-subscriber.jar",
