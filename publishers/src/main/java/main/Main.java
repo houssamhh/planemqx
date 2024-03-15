@@ -17,7 +17,6 @@ import clients.Device;
 import common.Configuration;
 import common.JSONDataParser;
 import common.PublishMessage;
-import commonPriorities.Statistics;
 
 public class Main {
 	static final int EXPERIMENT_DURATION = Configuration.EXPERIMENT_DURATION;
@@ -52,7 +51,7 @@ public class Main {
 			}
 		});
 		devices.entrySet().forEach(dev -> dev.getValue().disconnect());
-		Statistics.addSeperation();
+//		Statistics.addSeperation();
 		Thread.sleep(1000); 
 		System.out.println(Main.class.getCanonicalName()
 				+ " ***************************publishers END OF EXPERIMENT********************************");
