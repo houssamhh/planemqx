@@ -3,6 +3,7 @@
 ## Project Description
 PlanEMQX is a prototype built on top of the [EMQX](emqx.io) message broker, enabling adaptive data exchange in IoT environments. This is achieved by (i) refining per-subscription data flows based on the applications deployed in the environment, (ii) dynamically assigning drop rates or priorities to data flows according to the requirements of the subscribing applications, and (iii) enabling the adaptation of data flows based on dynamic changes in the environment or evolving applications' requirements. For more information about how PlanEMQX is implemented, please refer to [1].
 This repository contains the source code of the PlanEMQX implementation, along with an emulated network environment for using and testing PlanEMQX.
+This artifact is also available on Zenodo at: https://doi.org/10.5281/zenodo.10827294
 
 ## Getting Started
 This repository contains the following directories:
@@ -15,6 +16,7 @@ This repository contains the following directories:
 
 ### Installation Requirements
 This artifact has been prepared for a host machine running [Ubuntu 20.04 LTS](https://releases.ubuntu.com/focal/). In addition, you should install [jdk-17](https://www.oracle.com/fr/java/technologies/downloads/#java17), [Maven 3.8.7](https://maven.apache.org/docs/3.8.7/release-notes.html), [Docker](https://docs.docker.com/engine/install/ubuntu/), [Python3](https://www.python.org/downloads/), and [Containernet](https://containernet.github.io/).
+A Virtual Machine with the installed dependencies can be downloaded at: https://doi.org/10.5281/zenodo.10827294
 
 **N.B**: when installing *Containernet*, please do so using the Bare-metal installation option (Option 1). Using the nested Docker deployment option (Option 2) may generate errors when running experiments.
 
@@ -49,12 +51,12 @@ $ java -jar agent.jar
 ```
 - Start the subscribers:
 ```
-$ sudo docker exec -it mn.subscribers /bin/bash
+$ sudo docker exec -it mn.sub /bin/bash
 $ java -jar subscribers.jar
 ```
 - And finally start the publishers:
 ```
-$ sudo docker exec -it mn.publishers /bin/bash
+$ sudo docker exec -it mn.pub /bin/bash
 $ java -jar publishers.jar
 ```
 The simulation will run for approximately three minutes (you can know when the simulation is done by viewing the display of the subscribers' container).
